@@ -1,0 +1,12 @@
+*{
+    list-style-type: none;
+}
+li[class]{
+    font-size: 300%;
+}
+li[class="a"]{
+    color: royalblue;
+}
+li[class~="b"]{
+    color: aqua;
+}

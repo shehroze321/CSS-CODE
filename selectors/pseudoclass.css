@@ -1,0 +1,9 @@
+a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+body h2+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
