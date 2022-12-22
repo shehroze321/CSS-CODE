@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+
+        .div-1{
+            display: grid;
+            grid-gap: 30px;
+
+            grid-template-columns: repeat(12,2fr);
+
+            grid-auto-rows: minmax(50px ,auto);
+            grid-auto-columns: minmax(10px ,auto);
+            margin: 20px 20px;
+        }
+        .div-2{
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: repeat(6,2fr);
+
+            grid-auto-rows: minmax(50px ,auto);
+            grid-auto-columns: minmax(10px ,auto);
+            margin: 20px 20px;
+        }
+        .div-3{
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: repeat(4,2fr);
+
+            grid-auto-rows: minmax(50px ,auto);
+            grid-auto-columns: minmax(10px ,auto);
+            margin: 20px 20px;
+        }
+        .div-4{
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: repeat(3,2fr);
+
+            grid-auto-rows: minmax(50px ,auto);
+            grid-auto-columns: minmax(10px ,auto);
+            margin: 20px 20px;
+        }
+        .div-5{
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: repeat(2,2fr);
+
+            grid-auto-rows: minmax(50px ,auto);
+            grid-auto-columns: minmax(10px ,auto);
+            margin: 20px 20px;
+        }
+        .div-6{
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: repeat(3,2fr);
+
+            grid-auto-rows: minmax(50px ,auto);
+            grid-auto-columns: minmax(10px ,auto);
+            margin: 20px 20px;
+        }
+        .div-7{
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: repeat(1,2fr);
+
+            grid-auto-rows: minmax(50px ,auto);
+            grid-auto-columns: minmax(10px ,auto);
+            margin: 20px 20px;
+        }
+        .items{
+            background-color:rgb(236, 231, 231);
+            border: 3px black solid;
+            align-items: center;
+            text-align: center;
+
+            border-top: 3px;
+            border-left: 3px ; 
+        }
+        #item-11{
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        #item-22{
+            grid-column-start: 2;
+            grid-column-end: 6;
+        }
+    
+    </style>
+</head>
+<body>
+        <div class="div-1">
+        <div class="items" > 1</div>
+        <div class="items" >1</div>
+        <div class="items" > 1</div>
+        <div class="items" > 1</div>
+        <div class="items" > 1</div>
+        <div class="items" > 1</div>
+        <div class="items" >1</div>
+        <div class="items" > 1</div>
+        <div class="items" >1</div>
+        <div class="items" > 1</div>
+        <div class="items" > 1</div>
+        <div class="items" > 1</div>
+    </div>
+    <div class="div-2">
+            <div class="items" > 2</div>
+            <div class="items" >2</div>
+            <div class="items" > 2</div>
+            <div class="items" > 2</div>
+            <div class="items" > 2</div>
+            <div class="items" > 2</div>
+    </div>
+    <div class="div-3">
+        <div class="items" > 3</div>
+        <div class="items" >3</div>
+        <div class="items" > 3</div>
+        <div class="items" > 3</div>
+    </div>
+    <div class="div-4">
+        <div class="items" > 4</div>
+        <div class="items" >4</div>
+        <div class="items" > 4</div>
+    </div>
+    <div class="div-5">
+        <div class="items" > 6</div>
+        <div class="items" >6</div>
+    </div>
+    <div class="div-6">
+        <div class="items" id="item-11"> 4</div>
+        <div class="items" id="item-22">8</div>
+    </div>
+    <div class="div-7">
+        <div class="items" > 12</div>
+    </div>
+</body>
+</html>
